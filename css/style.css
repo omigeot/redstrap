@@ -1,0 +1,351 @@
+ * Redbasic
+ *
+ * Based on duepuntozero Friendica style
+ * by Fabio Comuni <fabrix.xm@gmail.com>
+ */
+
+
+/* generals */
+.jslider {
+	font-family: arial,freesans,clean,sans-serif;
+}
+
+aside {
+border: none;
+color: #444444;
+}
+
+a:hover, .fakelink:hover { color: #44AAFF; text-decoration: underline; }
+
+.fakelink {
+	cursor: pointer;
+}
+
+input {
+	border: 1px solid #666666;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	padding: 3px;
+}
+
+img { border :0px; }
+
+
+.ccollapse-wrapper {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+.hide-comments {
+	margin-left: 5px;
+}
+
+#panel {
+	background-color: ivory;
+	position: absolute;
+	z-index: 2;
+	width: 30%;
+	padding: 25px;
+	border: 1px solid #444;
+}
+
+.heart {
+	color: #FF0000;
+	font-size: 100%;
+	margin-right: 5px;
+}
+
+
+
+
+/* from default */
+#jot-perms-icon, 
+#profile-location,
+#profile-nolocation,
+#profile-youtube, 
+#profile-video, 
+#profile-audio,
+#profile-link,
+#profile-title, 
+#wall-image-upload,
+#wall-file-upload,
+#profile-upload-wrapper,
+#wall-image-upload-div,
+#wall-file-upload-div,
+.hover, .focus {
+	cursor: pointer;
+}
+
+#jot-perms-icon {
+	float: left;
+}
+
+#jot-title, #jot-category {
+	border: 0px;
+	margin: 0px;
+	padding: 8px;
+	height: 20px;
+	width: 530px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	border: solid 1px #ffffff;
+	border-radius: 5px;
+}
+
+#jot-title::-webkit-input-placeholder{font-weight: bold;}
+#jot-category::-webkit-input-placeholder{font-weight: bold;}
+#jot-title:-moz-placeholder{font-weight: bold;}
+#jot-category:-moz-placeholder{font-weight: bold;}
+		
+#jot-title:hover,
+#jot-title:focus,
+#jot-category:hover,
+#jot-category:focus {
+	border: 1px solid #cccccc; 
+}
+
+.jothidden { display:none; }
+
+
+
+
+/* Redstrap specific */
+
+.menu-popup {
+	display : none;
+}
+
+.nav-menu-icon img  {
+	max-height: 20px;
+}
+
+input#nav-search-text {
+	margin: 4px;
+}
+
+#nav-searchbar {
+	height: 40px;
+}
+
+.wall-item-photo-wrapper {
+	width:60px;
+	float:left;
+}
+
+.wall-item-photo {
+	max-height: 50px;
+	max-width: 50px;
+	margin: 5px;
+	float: left;
+}
+
+.my-comment-photo {
+        max-height: 40px;
+        max-width: 40px;
+	margin: 10px;
+	float: left;
+}
+
+
+.wall-item-photo-menu {
+	display: none;
+}
+
+.wall-item-photo-menu-button {
+        display: none;
+	top: 0px;
+	left:0px;
+	width: 60px;
+	height: 60px;
+	position: relative;
+}
+
+.wall-item-photo-menu-button span {
+        position: relative;
+	left: 8px;
+	top: -24px;
+	text-decoration: none;
+	color: white;
+}
+
+.contact-block-img {
+        max-width:58px
+        max-height: 58px;
+}
+
+.contact-block-div {
+	max-width:60px;
+	max-height: 60px;
+	padding: 1px;
+	float: left;
+}
+
+img.photo {
+	width:184px;
+}
+
+.contact-entry-wrapper {
+	float:left;
+	max-width: 120px;
+	max-height: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.contact-block-content {
+	overflow: auto;
+	width: 186px;
+}
+
+
+.badge-info.show {
+//	position: relative;
+//	top: -30px;
+	display:inline;
+}
+
+.comment-edit-photo-end +  ul {
+	display: none;
+}
+
+.comment-edit-form {
+	display: none;
+}
+
+textarea#profile-jot-text {
+	width: 870px;
+	height: 20px;
+}
+
+#nav-notify-menus img {
+	max-width: 60px;
+	max-height: 60px;
+	float: left;
+}
+
+.wall-item-ago {
+	font-size: 11px;
+	color: #222;
+}
+
+.wall-item-tools {
+	float:right;
+}
+
+.wall-item-tools a {
+	text-decoration:none;
+	color: #ddd;
+	font-weight:bold;
+}
+
+.wall-item-tools a:hover {
+        text-decoration:none;
+        color: #222;
+        font-weight:bold;
+}
+
+.comment-edit-button {
+	float:right;
+}
+
+a.comment-edit-button {
+        text-decoration:none;
+        color: #ddd;
+        font-weight:bold;
+}
+
+a.comment-edit-button :hover {
+        text-decoration:none;
+        color: #222;
+        font-weight:bold;
+}
+
+a#net-update {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+
+.notify-badge {
+	position:relative;
+	top: -40px;
+	left: 8px;
+	font-size: 10px;
+	display: inline;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+
+.notify-seen,.notify-unseen > a > img {
+	max-width: 60px;
+	max-height: 60px;
+}
+
+span.notif-when {
+	font-size: 0px;
+}
+
+div.thread-wrapper {
+	margin-top: 10px;
+}
+
+.thread-wrapper.toplevel_item {
+	padding-bottom: 16px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ddd;
+}
+
+.thread-wrapper .thread-wrapper {
+	padding-left: 10px;
+}
+
+.wall-item-content {
+	padding-left: 60px;
+}
+
+.nav > li {
+	height: 40px
+}
+
+#page-spinner {
+	width: 100%;
+	text-align: center;
+}
+
+#nav-search-spinner {
+	margin: 3px;
+}
+
+.mail-list-sender-photo {
+	width: 40px;
+	margin: 5px;
+}
+
+.mail-list-wrapper {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ddd;
+}
+
+.btn {
+	margin-top: 10px;
+}
+
+
+.comment-edit-submit {
+	margin-left: 70px;
+}
+
+a.zid-link {
+	background-color:red;
+}
+
+a.nozid-link {
+
+}
