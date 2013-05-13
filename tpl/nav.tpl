@@ -152,24 +152,6 @@
                         </form>
                 </li>
 		<b id="nav-search-spinner" class='icon-spinner icon-spin icon-2x' style="display:none;"></b>
-		<!-- Placeholder for remote privacy control -->
-
-		<div class="btn-group">
-			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#" id="privacy-mode-button">
-				Privacy mode	
-				<span class="caret"></span>
-			</a>
-			<ul class="dropdown-menu">
-				<li><a href="#">Full access : every site you visit will know who you are.</a></li>
-				<li><a href="#">Limited access : you'll be asked everytime you'll click on external link whether you want your auth to follow.</a></li>
-				<li><a href="#">Privacy mode : no external link will be passed your local identity. You'll still be able to authentify on their side if you change your mind.</a></li>
-			</ul>
-		</div>
-
-
-		<!-- End of Placeholder -->
-
-
 
             </ul>
           </div><!--/.nav-collapse -->
